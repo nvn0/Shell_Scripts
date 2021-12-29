@@ -3,9 +3,9 @@ Basic Shell Scripts for Linux
 
 ## How to run:
 
-- bash {nome do ficheiro}
-- sh {nome do ficheiro}
-- ./{nome do ficheiro}
+- bash {script name}
+- sh {script name}
+- ./{script name}
 
 ## Other:
 
