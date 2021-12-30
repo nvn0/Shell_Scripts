@@ -1,8 +1,7 @@
 #!/bin/bash
-
-echo $(pwd)
-echo $(date)
-echo $(who)
+echo "PWD:" $(pwd)
+echo "Date:" $(date)
+echo "Utilizador:" $(whoami)
 echo " "
 echo "Memória RAM:"
 echo $(free -h)
@@ -12,6 +11,7 @@ echo $(df -h)
 echo " "
 echo "Dispositivos USB:"
 echo $(lsusb)
+echo " "
 
 
 
