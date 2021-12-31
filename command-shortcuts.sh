@@ -7,10 +7,10 @@
 
 alias myip="echo $(ifconfig | grep broadcast | awk '{print $2}')"
 
-alias upgradesystem='sudo apt update && sudo apt upgrade -y'
+alias update='sudo apt update && sudo apt upgrade -y'
 
 
-
+alias clean='sudo apt autoremove -y && sudo apt autoclean'
 
 
 
