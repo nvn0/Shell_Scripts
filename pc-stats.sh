@@ -13,18 +13,18 @@ NC="\033[0m"
 
 
 echo -e "${Cyan}PWD:${NC}" $(pwd)
-echo "${Cyan}Date:${NC}" $(date)
-echo "${Cyan}Up time:${NC}" $(uptime | awk '{print $2 ,$3 ,$4}')
-echo "${Cyan}Kernel:${NC}" $(uname -r)
-echo "${Cyan}Utilizador:${NC}" $(whoami)
+echo -e "${Cyan}Date:${NC}" $(date)
+echo -e "${Cyan}Up time:${NC}" $(uptime | awk '{print $2 ,$3 ,$4}')
+echo -e "${Cyan}Kernel:${NC}" $(uname -r)
+echo -e "${Cyan}Utilizador:${NC}" $(whoami)
 echo " "
-echo "${Cyan}Memória RAM:${NC}"
+echo -e "${Cyan}Memória RAM:${NC}"
 echo $(free -h)
 echo " "
-echo "${Cyan}Espaço em Disco:${NC}"
+echo -e "${Cyan}Espaço em Disco:${NC}"
 echo $(df -h)
 echo " "
-echo "${Cyan}Dispositivos USB:${NC}"
+echo -e "${Cyan}Dispositivos USB:${NC}"
 echo $(lsusb)
 echo " "
 
