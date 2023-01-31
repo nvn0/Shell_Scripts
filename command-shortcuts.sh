@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create custom commands or commands shortcuts
-# alias {custom name to the command}="{comand}"
+# alias {custom name to the command}='{comand}'
 
 # adicionar em /home/$USER/.bashrc
 
