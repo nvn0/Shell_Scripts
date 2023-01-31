@@ -3,7 +3,7 @@
 # Create custom commands or commands shortcuts
 # alias {custom name to the command}='{comand}'
 
-# adicionar em /home/$USER/.bashrc
+# adicionar em /home/$USER/.bashrc ou em /home/$USER/.bash_aliases
 
 
 alias myip="echo $(ifconfig | grep broadcast | awk '{print $2}')"
