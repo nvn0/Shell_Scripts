@@ -13,7 +13,7 @@ alias update='sudo apt update && sudo apt upgrade -y'
 
 alias clean='sudo apt autoremove -y && sudo apt autoclean'
 
-
+alias desk="cd ~/Desktop"
 
 
 
