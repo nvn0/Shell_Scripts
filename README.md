@@ -9,5 +9,5 @@ Basic Shell Scripts for Linux
 
 ## Other:
 
-- Copy the script to /usr/bin
+- Copy the script to /usr/bin/ or .local/bin/
 - Just write the name script in the terminal
