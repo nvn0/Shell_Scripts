@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## outra opção -> #!/usr/bin/env bash
+
+# Dar perms e mover para .local/bin/ para poder executar sem o ./
+
+#ps aux | grep $1 | awk '{print $2}' #v1 - retorna multipos pid como o do grep por isso nao é usavel
+ps aux | grep "[${1:0:1}]${1:1}" | awk '{print $2}' | head -n 1
