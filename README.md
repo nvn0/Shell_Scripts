@@ -1,13 +1,19 @@
 # Shell Scripts
 Basic Shell Scripts for Linux
 
+## Give execution permission:
+
+```
+chmod +x <script name>
+```
+
 ## How to run:
 
-- bash {script name}
-- sh {script name}
-- ./{script name}
+- bash <script name>
+- sh <script name>
+- ./<script name>
 
 ## Other:
 
-- Copy the script to /usr/bin/ or .local/bin/
-- Just write the name script in the terminal
+1. Copy the script to /usr/bin/ or .local/bin/ (without the .sh extension)
+2. Just write the script name in the terminal
